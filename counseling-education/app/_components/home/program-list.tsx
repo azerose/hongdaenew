@@ -20,7 +20,7 @@ const ProgramList = () => {
                     </div>
                     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2 mt-12">
                         <ProgramCard
-                            img="/career_coaching.jpg"
+                            img="/career_coaching.png"
                             alt="진로코칭"
                             title="진로코칭"
                             description="직업적 삶을 더욱 의미있고 가치있게 만드는 과정입니다."
@@ -29,8 +29,8 @@ const ProgramList = () => {
                         <ProgramCard
                             img="/NPL_coaching.jpg"
                             alt="NLP 코칭(Neuro Linguistic Programming)"
-                            title="NLP 코칭(Neuro Linguistic Programming)"
-                            description="인간의 뇌, 언어, 행동 간의 상호작용을 이해하고 개선하는 데 초점을 맞춘 강력한 자기 발전을 할 수 있게 돕고 있습니다."
+                            title="NLP 코칭"
+                            description="NLP(Neuro Linguistic Programming) 인간의 뇌, 언어, 행동 간의 상호작용을 이해하고 개선하는 데 초점을 맞춘 강력한 자기 발전을 할 수 있게 돕고 있습니다."
                             link=""
                         />
                         <ProgramCard
