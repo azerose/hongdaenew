@@ -9,7 +9,9 @@ const Footer = () => {
                     <Image src="/NGEC_logo_green.png" alt="NGEC" width={40} height={40} />
                     <span className="font-semibold">NGEC</span>
                 </div>
-                <p className="text-sm text-gray-500">© 2025 마음성장연구소. All rights reserved.</p>
+                <p className="text-sm text-gray-500">
+                    © 2025 NGEC(Next Global Education Center). All rights reserved.
+                </p>
                 <div className="flex items-center gap-4">
                     <Link
                         href="#"
