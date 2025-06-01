@@ -4,7 +4,7 @@ import Footer from './_components/common/footer';
 import Header from './_components/common/header';
 
 export const metadata: Metadata = {
-    title: 'v0 App',
+    title: 'NGEC',
     description: 'Created with v0',
     generator: 'v0.dev',
 };

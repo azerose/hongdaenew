@@ -1,43 +1,14 @@
-import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Calendar, Award, Phone } from 'lucide-react';
 import ProgramList from './_components/home/program-list';
+import FirstContents from './_components/home/first-contents';
 
 export default function Home() {
     return (
         <div className="flex min-h-screen flex-col">
             <main className="flex-1">
                 {/* 히어로 섹션 */}
-                <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-teal-50 to-blue-50">
-                    <div className="container px-4 md:px-6">
-                        <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
-                            <div className="space-y-4">
-                                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                                    전문적인 상담교육으로
-                                    <br />더 나은 미래를 만들어갑니다
-                                </h1>
-                                <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    마음성장연구소는 전문 상담사 양성 및 심리 교육 프로그램을
-                                    제공합니다. 체계적인 교육과정과 풍부한 실습 기회로 실무에 강한
-                                    상담 전문가를 양성합니다.
-                                </p>
-                                <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                                    <Button className="bg-teal-600 hover:bg-teal-700">
-                                        프로그램 알아보기
-                                    </Button>
-                                    <Button variant="outline">무료 상담 신청</Button>
-                                </div>
-                            </div>
-                            <div className="mx-auto lg:mx-0 w-full max-w-[500px] aspect-video overflow-hidden rounded-xl">
-                                <img
-                                    src="/placeholder.svg?height=500&width=800"
-                                    alt="상담교육 이미지"
-                                    className="object-cover w-full h-full"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <FirstContents />
 
                 {/* 특징 섹션 */}
                 <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
