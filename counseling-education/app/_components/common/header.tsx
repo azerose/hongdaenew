@@ -10,12 +10,6 @@ const MENU_LIST: MenuItem[] = [
         id: 0,
         title: '소개',
         link: '/info',
-        submenu: [
-            { title: '회사 소개', link: '/info' },
-            { title: '대표이사 소개', link: '/info/story' },
-            { title: '연혁', link: '/info/history' },
-            { title: '조직도', link: '/info/tree' },
-        ],
     },
     {
         id: 1,
