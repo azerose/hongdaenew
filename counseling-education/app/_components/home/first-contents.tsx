@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const FirstContents = () => {
     return (
@@ -17,9 +18,11 @@ const FirstContents = () => {
                             경쟁력과 지속가능한 성장을 지원합니다.
                         </p>
                         <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                            <Button className="bg-teal-600 hover:bg-teal-700">
-                                프로그램 알아보기
-                            </Button>
+                            <Link href="/couching">
+                                <Button className="bg-teal-600 hover:bg-teal-700">
+                                    프로그램 알아보기
+                                </Button>
+                            </Link>
                             <Button variant="outline">무료 상담 신청</Button>
                         </div>
                     </div>
