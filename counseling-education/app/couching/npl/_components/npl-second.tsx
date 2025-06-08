@@ -30,13 +30,7 @@ const NplSecond = () => {
                     목표에 대한 명확한 비전과 그에 따른 실천 계획을 세울 수 있으며, 내적인 장벽을
                     넘어 목표 달성에 대한 자신감을 얻을 수 있습니다. 
                 </div>
-                <div className="text-xl font-semibold">
-                    <div className="font-bold">3. 선택의 확신과 내적 동기 부여 향상</div>
-                </div>
-                <div className="text-xl">
-                    진로에 대한 불확실성에서 벗어나 자신감 있게 직업적인 방향을 설정하고, 이를 위한
-                    구체적인 계획을 실행에 옮길 수 있게 됩니다. 
-                </div>
+
                 <div className="text-xl font-semibold">
                     <div className="font-bold">3. 효과적인 커뮤니케이션 능력 향상 </div>
                 </div>

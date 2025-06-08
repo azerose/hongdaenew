@@ -50,10 +50,10 @@ const Header = () => {
     return (
         <header className="sticky  top-0 z-40 border-b bg-background">
             <div className=" w-full flex h-16 items-center justify-between py-4">
-                <div className="flex items-center gap-1">
+                <Link className="cursor-pointer flex items-center gap-1" href={'/'}>
                     <Image src="/NGEC_logo_green.png" alt="NGEC" width={40} height={40} />
                     <span className="text-xl font-bold">NGEC</span>
-                </div>
+                </Link>
                 <nav className="hidden md:flex items-center gap-12">
                     {MENU_LIST.map((menu) => (
                         <div key={menu.id} className="relative group">
