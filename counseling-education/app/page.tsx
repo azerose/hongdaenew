@@ -1,7 +1,8 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Users, Calendar, Award, Phone } from 'lucide-react';
+import { Phone } from 'lucide-react';
 import ProgramList from './_components/home/program-list';
 import FirstContents from './_components/home/first-contents';
+import SecondContents from './_components/home/second-contents';
 
 export default function Home() {
     return (
@@ -11,62 +12,7 @@ export default function Home() {
                 <FirstContents />
 
                 {/* 특징 섹션 */}
-                <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
-                    <div className="container px-4 md:px-6">
-                        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                            <div className="space-y-2">
-                                <div className="inline-block rounded-lg bg-teal-100 px-3 py-1 text-sm text-teal-700">
-                                    왜 마음성장연구소인가?
-                                </div>
-                                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                                    차별화된 교육 프로그램
-                                </h2>
-                                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    20년 이상의 경험을 바탕으로 이론과 실무를 균형있게 배울 수 있는
-                                    교육 과정을 제공합니다.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mt-12">
-                            <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
-                                <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                                    <div className="rounded-full bg-teal-100 p-3">
-                                        <Award className="h-6 w-6 text-teal-700" />
-                                    </div>
-                                    <h3 className="text-xl font-bold">전문 자격증 취득</h3>
-                                    <p className="text-gray-500">
-                                        국가공인 자격증 취득을 위한 체계적인 교육과정과 시험 대비
-                                        프로그램 제공
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
-                                <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                                    <div className="rounded-full bg-teal-100 p-3">
-                                        <Users className="h-6 w-6 text-teal-700" />
-                                    </div>
-                                    <h3 className="text-xl font-bold">실전 중심 교육</h3>
-                                    <p className="text-gray-500">
-                                        현장에서 바로 적용 가능한 실습 위주의 교육과 사례 연구 중심
-                                        커리큘럼
-                                    </p>
-                                </CardContent>
-                            </Card>
-                            <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
-                                <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                                    <div className="rounded-full bg-teal-100 p-3">
-                                        <Calendar className="h-6 w-6 text-teal-700" />
-                                    </div>
-                                    <h3 className="text-xl font-bold">유연한 학습 일정</h3>
-                                    <p className="text-gray-500">
-                                        주중, 주말, 온라인 과정 등 다양한 일정으로 직장인도 부담
-                                        없이 학습 가능
-                                    </p>
-                                </CardContent>
-                            </Card>
-                        </div>
-                    </div>
-                </section>
+                <SecondContents />
 
                 {/* 프로그램 섹션 */}
                 <ProgramList />
