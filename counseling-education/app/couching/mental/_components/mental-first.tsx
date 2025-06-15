@@ -10,7 +10,7 @@ const MentalFirst = () => {
                             <div className="w-[500px] h-[550px] relative">
                                 <Image
                                     src="/npl_main.jpg"
-                                    alt="npl 검사"
+                                    alt="nlp 검사"
                                     fill
                                     priority
                                     className="object-cover rounded-lg"

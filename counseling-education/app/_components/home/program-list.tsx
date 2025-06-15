@@ -24,7 +24,7 @@ const ProgramList = () => {
                             link=""
                         />
                         <ProgramCard
-                            img="/NPL_coaching.jpg"
+                            img="/npl_coaching.jpg"
                             alt="NLP 코칭(Neuro Linguistic Programming)"
                             title="NLP 코칭"
                             description="NLP(Neuro Linguistic Programming) 인간의 뇌, 언어, 행동 간의 상호작용을 이해하고 개선하는 데 초점을 맞춘 강력한 자기 발전을 할 수 있게 돕고 있습니다."

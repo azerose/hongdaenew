@@ -22,7 +22,7 @@ const MENU_LIST: MenuItem[] = [
         submenu: [
             { title: '코칭 프로세스', link: '/couching' },
             { title: '진로 프로그램', link: '/couching/career' },
-            { title: 'NPL 프로그램', link: '/couching/npl' },
+            { title: 'NLP 프로그램', link: '/couching/nlp' },
             { title: '연기/연극 프로그램', link: '/couching/performance' },
             { title: '멘탈 프로그램', link: '/couching/mental' },
         ],

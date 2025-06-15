@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Footer = () => {
     return (
-        <footer className="w-full border-t py-6 md:py-0">
-            <div className="container flex flex-col md:flex-row items-center justify-between gap-4 md:h-24">
+        <footer className="w-full  border-t py-6 md:py-0">
+            <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 md:h-24">
                 <div className="flex items-center gap-1">
                     <Image src="/NGEC_logo_green.png" alt="NGEC" width={40} height={40} />
                     <span className="font-semibold">NGEC</span>
