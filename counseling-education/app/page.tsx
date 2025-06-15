@@ -1,4 +1,4 @@
-import { Phone } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 import ProgramList from './_components/home/program-list';
 import FirstContents from './_components/home/first-contents';
 import SecondContents from './_components/home/second-contents';
@@ -34,7 +34,11 @@ export default function Home() {
                                 <div className="space-y-2">
                                     <div className="flex items-center gap-2">
                                         <Phone className="h-5 w-5 text-teal-600" />
-                                        <span className="text-gray-700">02-123-4567</span>
+                                        <span className="text-gray-700">010-9568-4288</span>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <Mail className="h-5 w-5 text-teal-600" />
+                                        <span className="text-gray-700">h_813@nate.com</span>
                                     </div>
                                     <p className="text-sm text-gray-500">
                                         평일 09:00 - 18:00 (점심시간 12:00 - 13:00)

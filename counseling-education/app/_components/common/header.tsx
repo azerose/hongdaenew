@@ -77,7 +77,13 @@ const Header = () => {
                         </div>
                     ))}
                 </nav>
-                <Button className="bg-teal-600 hover:bg-teal-700">상담 신청</Button>
+                <Link
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc0HboIGAQmjQ2-a6VmTbOOlBPe99ILjS8Dg-xHrsY72F0ChQ/viewform?usp=preview"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <Button className="bg-teal-600 hover:bg-teal-700">상담 신청</Button>
+                </Link>
             </div>
         </header>
     );
