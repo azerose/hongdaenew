@@ -1,4 +1,4 @@
-const NplSecond = () => {
+const NlpSecond = () => {
     return (
         <section className="w-full flex flex-col gap-12 items-center justify-center py-8  bg-white">
             <div className="flex flex-col gap-3 max-w-5xl w-full">
@@ -50,4 +50,4 @@ const NplSecond = () => {
     );
 };
 
-export default NplSecond;
+export default NlpSecond;

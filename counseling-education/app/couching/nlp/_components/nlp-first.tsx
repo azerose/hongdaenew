@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const NplFirst = () => {
+const NlpFirst = () => {
     return (
         <div>
             <section className="w-full flex items-center justify-center  py-10 bg-gradient-to-r from-teal-50 to-blue-50">
@@ -10,7 +10,7 @@ const NplFirst = () => {
                             <div className="w-[500px] h-[550px] relative">
                                 <Image
                                     src="/npl_main.jpg"
-                                    alt="npl 검사"
+                                    alt="nlp 검사"
                                     fill
                                     priority
                                     className="object-cover rounded-lg"
@@ -44,4 +44,4 @@ const NplFirst = () => {
         </div>
     );
 };
-export default NplFirst;
+export default NlpFirst;
