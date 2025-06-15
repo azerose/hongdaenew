@@ -24,7 +24,13 @@ const FirstContents = () => {
                                     프로그램 알아보기
                                 </Button>
                             </Link>
-                            <Button variant="outline">무료 상담 신청</Button>
+                            <Link
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc0HboIGAQmjQ2-a6VmTbOOlBPe99ILjS8Dg-xHrsY72F0ChQ/viewform?usp=preview"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button variant="outline">무료 상담 신청</Button>
+                            </Link>
                         </div>
                     </div>
                     <div className="mx-auto lg:mx-0 w-full aspect-video overflow-hidden rounded-xl">
