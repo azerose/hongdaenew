@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface iProps {
     img: string;
@@ -27,9 +28,11 @@ const ProgramCard = ({ img, alt, title, description, link }: iProps) => {
                 <h3 className="text-2xl font-bold mb-2">{title}</h3>
                 <p className="text-gray-500 mb-4">{description}</p>
                 <div className="flex justify-center items-center">
-                    <Button variant="ghost" className="flex items-center gap-1 text-teal-600">
-                        자세히 보기 <ArrowRight className="h-4 w-4" />
-                    </Button>
+                    <Link href={link}>
+                        <Button variant="ghost" className="flex items-center gap-1 text-teal-600">
+                            자세히 보기 <ArrowRight className="h-4 w-4" />
+                        </Button>
+                    </Link>
                 </div>
             </CardContent>
         </Card>
