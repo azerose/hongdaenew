@@ -21,28 +21,28 @@ const ProgramList = () => {
                             alt="진로코칭"
                             title="진로코칭"
                             description="직업적 삶을 더욱 의미있고 가치있게 만드는 과정입니다."
-                            link=""
+                            link="/couching/career"
                         />
                         <ProgramCard
-                            img="/npl_coaching.jpg"
+                            img="/NLP_coaching.jpg"
                             alt="NLP 코칭(Neuro Linguistic Programming)"
                             title="NLP 코칭"
                             description="NLP(Neuro Linguistic Programming) 인간의 뇌, 언어, 행동 간의 상호작용을 이해하고 개선하는 데 초점을 맞춘 강력한 자기 발전을 할 수 있게 돕고 있습니다."
-                            link=""
+                            link="/couching/nlp"
                         />
                         <ProgramCard
                             img="/musical_coaching.jpg"
                             alt="연기/연극 코칭"
                             title="연기/연극 코칭"
                             description="단순히 기술적 연기력 향상만이 아닌 그 이상의 개개인의 내면을 깊이 탐구하고, 감정 표현 및 상상력을 극대화 하는 과정입니다."
-                            link=""
+                            link="/couching/performance"
                         />
                         <ProgramCard
                             img="/mental_coaching.jpg"
                             alt="멘탈코칭"
                             title="멘탈코칭"
                             description="정신적, 감정적 안정성을 높이고, 삶의 질을 향상 시키기 위한 중요한 과정입니다."
-                            link=""
+                            link="/couching/mental"
                         />
                     </div>
                 </div>
