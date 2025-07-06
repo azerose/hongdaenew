@@ -19,14 +19,14 @@ const NlpSecond = () => {
                 <div className="text-xl font-semibold">
                     <div className="font-bold">1. 부정적인 사고 패턴 변화</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl  mb-3">
                     무의식적으로 반복되던 부정적인 사고 방식을 변화시켜, 보다 긍정적이고 건설적인
                     사고로 인지의 흐름과 패턴을 전환할 수 있습니다.
                 </div>
                 <div className="text-xl font-semibold">
                     <div className="font-bold">2. 목표 달성을 통한 자신감 회복</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     목표에 대한 명확한 비전과 그에 따른 실천 계획을 세울 수 있으며, 내적인 장벽을
                     넘어 목표 달성에 대한 자신감을 얻을 수 있습니다. 
                 </div>
@@ -34,7 +34,7 @@ const NlpSecond = () => {
                 <div className="text-xl font-semibold">
                     <div className="font-bold">3. 효과적인 커뮤니케이션 능력 향상 </div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     타인과의 관계에서 더욱 명확하고 효과적으로 의사소통할 수 있게 되어, 대인
                     관계에서 발생하는 갈등을 줄이고 협력을 증진시킬 수 있습니다. 
                 </div>

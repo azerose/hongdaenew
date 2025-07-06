@@ -19,14 +19,14 @@ const MentalSecond = () => {
                 <div className="text-xl font-semibold">
                     <div className="font-bold">1. 정신적 안정과 스트레스 관리 향상</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     정신적 안정과 스트레스 관리 향상 자신만의 스트레스 관리 방법과 안정적인 상태를
                     유지하는 법을 익히게 되며, 어려운 상황에서도 차분하게 대처할 수 있습니다.
                 </div>
                 <div className="text-xl font-semibold">
                     <div className="font-bold">2. 긍정적인 사고방식과 자기 존중감 향상</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     자신의 가치를 인식하고, 부정적인 사고 패턴을 긍정적으로 전환하여 더 큰 자신감을
                     얻을 수 있습니다. 
                 </div>
@@ -34,7 +34,7 @@ const MentalSecond = () => {
                 <div className="text-xl font-semibold">
                     <div className="font-bold">3. 목표 달성을 위한 집중력 및 인내심 향상 </div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     목표에 대한 명확한 비전을 갖고, 그에 맞는 실천 계획을 세워 꾸준히 실천할 수
                     있습니다.
                 </div>

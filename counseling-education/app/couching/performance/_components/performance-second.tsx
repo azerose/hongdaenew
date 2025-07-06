@@ -19,21 +19,21 @@ const PerformanceSecond = () => {
                 <div className="text-xl font-semibold">
                     <div className="font-bold">1. 자연스러운 감정 표현</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     감정에 대한 이해가 깊어져, 상황에 맞는 감정을 더 진정성 있게 표현할 수 있게
                     됩니다. 
                 </div>
                 <div className="text-xl font-semibold">
                     <div className="font-bold">2.무대 공포증 극복과 자신감 향상</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     무대나 화면에서의 불안감을 극복하고, 더 자신감 있게 연기를 할 수 있도록
                     자아확립과 회복탄력성이 높아지게 됩니다.
                 </div>
                 <div className="text-xl font-semibold">
                     <div className="font-bold">3. 캐릭터 이해의 스펙트럼 확장</div>
                 </div>
-                <div className="text-xl">
+                <div className="text-xl mb-3">
                     깊이 있는 내면의 이해를 바탕으로 자신이 맡은 캐릭터를 이해하고, 캐릭터의
                     성격이나 심리상태를 더 깊이 있게 표현할 수 있는 능력이 향상됩니다.
                 </div>
