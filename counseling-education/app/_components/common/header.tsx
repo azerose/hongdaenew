@@ -46,7 +46,7 @@ const MENU_LIST: MenuItem[] = [
 
 const Header = () => {
     return (
-        <header className="sticky  top-0 z-40 border-b bg-background">
+        <header className="sticky  top-0 z-40 border-b bg-background pr-2">
             <div className=" w-full flex h-16 items-center justify-between py-4">
                 <Link className="cursor-pointer flex items-center gap-1" href={'/'}>
                     <Image src="/NGEC_logo_green.png" alt="NGEC" width={40} height={40} />
